@@ -1,0 +1,10 @@
+@import "./_variables";
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $inter, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background-color: $backgroundColor;
+}

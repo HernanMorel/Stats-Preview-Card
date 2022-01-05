@@ -1,1 +1,49 @@
-/* No CSS *//*# sourceMappingURL=styles.css.map */
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html *,
+html *::before,
+html *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/*Variables*/
+/*Primary Colors*/
+/*background-colors*/
+/*text-colors)*/
+/*fonts-family*/
+/*fonts-sizes*/
+/*font-weights*/
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Inter", sans-serif, sans-serif;
+  height: 100vh;
+  overflow: hidden;
+  background-color: #090b1b;
+}
+
+/*Variables*/
+/*Primary Colors*/
+/*background-colors*/
+/*text-colors)*/
+/*fonts-family*/
+/*fonts-sizes*/
+/*font-weights*/
+/*# sourceMappingURL=styles.css.map */
