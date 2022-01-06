@@ -1,19 +1,21 @@
 /*Variables*/
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 
 /*Primary Colors*/
 /*background-colors*/
 $backgroundColor: hsl(233, 49%, 7%);
 $cardColor: hsl(246, 38%, 16%);
-$accentColor: hsl(277, 64%, 61%);
+$accentColor: hsla(277, 64%, 61%, 1);
 
 /*text-colors)*/
-$headingStatsColor: hsl(0, 0%, 100%);
+$headingStatsColor: hsla(0, 0%, 100%, 1);
 $paragraphColor: hsla(0, 0%, 100%, 0.75);
 $statHeadingColor: hsla(0, 0%, 100%, 0.6);
 
 /*fonts-family*/
 $inter: "Inter", sans-serif;
-$lexend: "Lexend Deca", sans-serif;
+$lexEnd: "Lexend Deca", sans-serif;
 
 /*fonts-sizes*/
 $normalFont: 0.9375em;
@@ -22,5 +24,5 @@ $statFont: 1.5em;
 $statTitleFont: 0.75em;
 
 /*font-weights*/
-$normalFont: 400;
-$boldFont: 700;
+$normalWeight: 400;
+$boldWeight: 700;

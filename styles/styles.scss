@@ -1,3 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
 @import "./reset";
 @import "./body";
 @import "./variables";
+
+.main-container {
+  display: flex;
+  width: 65%;
+  background-color: $cardColor;
+  box-shadow: 0px 20px 20px -10px rgba(23, 25, 41, 0.203087);
+  border-radius: 8px;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.info-container {
+  padding: 2em;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  font-weight: $boldWeight;
+  font-size: 1.1em;
+  color: $headingStatsColor;
+  padding: 1em;
+  h1 {
+    margin-bottom: 0.475em;
+  }
+  span {
+    color: $accentColor;
+  }
+  p {
+    font-family: $inter;
+    font-size: $normalFont;
+    font-weight: $normalWeight;
+    color: $paragraphColor;
+    padding-right: 2em;
+
+    opacity: 0.75;
+    line-height: 1.5625em;
+  }
+}
+
+.stats {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: left;
+  line-height: 1.8125em;
+  padding-bottom: 1px;
+
+  h3 {
+    color: $headingStatsColor;
+    font-size: $statFont;
+    margin-bottom: 0.125em;
+  }
+  p {
+    color: $statHeadingColor;
+    font-family: $lexEnd;
+    font-size: $statTitleFont;
+    font-weight: $normalWeight;
+    text-transform: uppercase;
+    letter-spacing: 0.0625em;
+  }
+  .box-2 {
+    padding-left: 2.5em;
+  }
+  .box-3 {
+    padding-left: 2.2em;
+  }
+}
+
+.image-container {
+  display: flex;
+  background-color: $accentColor;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  #image {
+    opacity: 0.8;
+    mix-blend-mode: multiply;
+  }
+}
+
+/*The mix-blend-mode property specifies how an element's content should blend with its direct parent background.*/
+
+@media only screen and (max-width: 395px) {
+  .main-container {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+  .info-container {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+  .stats {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+  .image-container {
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+}
