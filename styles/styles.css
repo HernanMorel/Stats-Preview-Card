@@ -166,28 +166,62 @@ body {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    width: 90%;
+    width: 20.4375em;
+    height: 48.75em;
+  }
+  .header {
+    width: 100%;
+  }
+  .header h1 {
+    font-size: 1.65em;
+    text-align: center;
+  }
+  .header p {
+    font-size: 0.8375em;
+    text-align: center;
+    margin: 0;
+    padding: 0;
   }
   .info-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    width: 90%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
   }
   .stats {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-    width: 90%;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .stats .box-2 {
+    padding-left: 0;
+  }
+  .stats .box-3 {
+    padding-left: 0;
   }
   .image-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    width: 90%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    height: 100%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
