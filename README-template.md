@@ -1,11 +1,9 @@
 # Stats preview card component solution
 
-## My process
-
-### Built with
+Stats preview guide for a mock company
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- Sass & Scss
 - Mobile-first workflow
