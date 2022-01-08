@@ -162,6 +162,12 @@ body {
 /*The mix-blend-mode property specifies how an element's content should blend with its direct parent background.*/
 @media only screen and (max-width: 395px) {
   .main-container {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
@@ -177,16 +183,16 @@ body {
     text-align: center;
   }
   .header p {
-    font-size: 0.8375em;
+    font-size: 0.827em;
     text-align: center;
     margin: 0;
     padding: 0;
   }
   .info-container {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -203,6 +209,7 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     text-align: center;
+    padding: 0;
   }
   .stats .box-2 {
     padding-left: 0;
@@ -210,11 +217,14 @@ body {
   .stats .box-3 {
     padding-left: 0;
   }
+  .stats #facts {
+    padding: 0;
+  }
   .image-container {
     -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     -o-object-fit: cover;
        object-fit: cover;
     border-top-right-radius: 8px;
